@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_extension_instance">
+    <sys_extension_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>100</order>
+        <point>x_snc_devtools.DevTools</point>
+        <script_include display_value="DevTools">148a2e371b40b950cd6153d16b4bcb10</script_include>
+        <sys_class_name>sys_extension_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-22 12:18:41</sys_created_on>
+        <sys_id>988a2e371b40b950cd6153d16b4bcb38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_devtools.DevTools</sys_name>
+        <sys_package display_value="CodeSanityAI" source="x_snc_codesanityai">311aa2371b40b950cd6153d16b4bcb56</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CodeSanityAI">311aa2371b40b950cd6153d16b4bcb56</sys_scope>
+        <sys_update_name>sys_extension_instance_988a2e371b40b950cd6153d16b4bcb38</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-22 12:18:41</sys_updated_on>
+    </sys_extension_instance>
+</record_update>
