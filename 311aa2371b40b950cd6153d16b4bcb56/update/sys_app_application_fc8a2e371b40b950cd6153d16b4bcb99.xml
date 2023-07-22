@@ -7,14 +7,14 @@
         <hint>Use Artifical Intelligence to perform CodeSanity checks</hint>
         <name/>
         <order>100</order>
-        <roles/>
+        <roles>x_snc_codesanity.admin</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-22 12:18:44</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fc8a2e371b40b950cd6153d16b4bcb99</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>CodeSanityAI</sys_name>
         <sys_overrides/>
         <sys_package display_value="CodeSanityAI" source="x_snc_codesanityai">311aa2371b40b950cd6153d16b4bcb56</sys_package>
@@ -22,7 +22,7 @@
         <sys_scope display_value="CodeSanityAI">311aa2371b40b950cd6153d16b4bcb56</sys_scope>
         <sys_update_name>sys_app_application_fc8a2e371b40b950cd6153d16b4bcb99</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-22 12:18:44</sys_updated_on>
+        <sys_updated_on>2023-07-22 12:24:14</sys_updated_on>
         <title>CodeSanityAI</title>
         <view_name/>
     </sys_app_application>

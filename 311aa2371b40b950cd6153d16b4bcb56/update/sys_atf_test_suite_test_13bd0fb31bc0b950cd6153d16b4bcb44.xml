@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order>0</order>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-22 14:52:38</sys_created_on>
+        <sys_id>13bd0fb31bc0b950cd6153d16b4bcb44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dbbd0fb31bc0b950cd6153d16b4bcb40</sys_name>
+        <sys_package display_value="CodeSanityAI" source="x_snc_codesanityai">311aa2371b40b950cd6153d16b4bcb56</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CodeSanityAI">311aa2371b40b950cd6153d16b4bcb56</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_13bd0fb31bc0b950cd6153d16b4bcb44</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-22 14:52:38</sys_updated_on>
+        <test display_value="CodeSanityAI - Exception Handling">dbbd0fb31bc0b950cd6153d16b4bcb40</test>
+        <test_suite display_value="CodeSanityAI">ac8a2e371b40b950cd6153d16b4bcb77</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>

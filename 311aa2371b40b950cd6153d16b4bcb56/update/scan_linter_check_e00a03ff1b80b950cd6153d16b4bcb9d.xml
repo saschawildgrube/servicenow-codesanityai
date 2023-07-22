@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_linter_check">
+    <scan_linter_check action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>code_sanity</category>
+        <description>If the code throws an exception, the exception must be handled (catched) within the same function. No exception should be thrown back to a caller.&#13;
+"Throw" written with a capital "T" should be ignored when analysing the code.&#13;
+If "Throw" is used as a function name, "Throw" should be ignored when analysing the code.</description>
+        <documentation_url/>
+        <finding_type>scan_finding</finding_type>
+        <name>CodeSanityAI - Exception Handling</name>
+        <priority>1</priority>
+        <resolution_details>Refactor the code so that all thrown exceptions are handled and any error condition is properly processed and returned as part of the return code of a function. </resolution_details>
+        <run_condition/>
+        <score_max>100</score_max>
+        <score_min>0</score_min>
+        <score_scale>1</score_scale>
+        <script><![CDATA[(function (engine) {
+
+	if (x_snc_codesanity.IsCheckApplicableToRecord())
+	{
+		if (LinterCheck_IsCodeCompliant(current,engine) == false)
+		{
+			engine.finding.increment();
+		}
+	}
+
+})(engine);]]></script>
+        <short_description>Exceptions must be handled (AI)</short_description>
+        <sys_class_name>scan_linter_check</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-22 14:38:51</sys_created_on>
+        <sys_id>e00a03ff1b80b950cd6153d16b4bcb9d</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>CodeSanityAI - Exception Handling</sys_name>
+        <sys_package display_value="CodeSanityAI" source="x_snc_codesanityai">311aa2371b40b950cd6153d16b4bcb56</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CodeSanityAI">311aa2371b40b950cd6153d16b4bcb56</sys_scope>
+        <sys_update_name>scan_linter_check_e00a03ff1b80b950cd6153d16b4bcb9d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-22 15:09:45</sys_updated_on>
+    </scan_linter_check>
+</record_update>

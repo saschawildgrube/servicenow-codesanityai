@@ -9,28 +9,19 @@
         <name>DevToolsGetLinkDirectory</name>
         <script><![CDATA[function DevToolsGetLinkDirectory(linkdirectory)
 {
-	// TODO: Create your own link directory category, add your own tables and links or remove this code (and return linkdirectory)...
-	
-	linkdirectory['CodeSanityAI Category'] =
-	[
-		{
-			table: 'x_snc_devtools_test'
-		}
-	];
-
 	return linkdirectory;
 }]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-22 12:18:42</sys_created_on>
         <sys_id>908a2e371b40b950cd6153d16b4bcb3f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>DevToolsGetLinkDirectory</sys_name>
         <sys_package display_value="CodeSanityAI" source="x_snc_codesanityai">311aa2371b40b950cd6153d16b4bcb56</sys_package>
         <sys_policy/>
         <sys_scope display_value="CodeSanityAI">311aa2371b40b950cd6153d16b4bcb56</sys_scope>
         <sys_update_name>sys_script_include_908a2e371b40b950cd6153d16b4bcb3f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-22 12:18:42</sys_updated_on>
+        <sys_updated_on>2023-07-22 12:25:10</sys_updated_on>
     </sys_script_include>
 </record_update>

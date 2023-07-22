@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description/>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>false</fail_on_server_error>
+        <name>CodeSanityAI - IsCodeCompliant</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-22 14:30:00</sys_created_on>
+        <sys_id>fb884f7f1b80b950cd6153d16b4bcb9e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>CodeSanityAI - IsCodeCompliant</sys_name>
+        <sys_package display_value="CodeSanityAI" source="x_snc_codesanityai">311aa2371b40b950cd6153d16b4bcb56</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CodeSanityAI">311aa2371b40b950cd6153d16b4bcb56</sys_scope>
+        <sys_update_name>sys_atf_test_fb884f7f1b80b950cd6153d16b4bcb9e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-22 14:30:08</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=fb884f7f1b80b950cd6153d16b4bcb9e"/>
+</record_update>
