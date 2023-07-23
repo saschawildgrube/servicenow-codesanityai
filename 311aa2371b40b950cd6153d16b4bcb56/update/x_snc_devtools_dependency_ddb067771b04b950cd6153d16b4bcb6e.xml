@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_devtools_dependency">
+    <x_snc_devtools_dependency action="INSERT_OR_UPDATE">
+        <dependency display_value="CodeSanity WORK IN PROGRESS" source="x_snc_codesanity">8ed42c23dbad0510bcced03cd39619ce</dependency>
+        <documentation_url>https://www.wildgrube.com/servicenow-codesanity</documentation_url>
+        <name>CodeSanity</name>
+        <package_class>sys_app</package_class>
+        <reason>CodeSanityAI contains checks in the "CodeSanity" category which are designed to validate applications and contained source code.</reason>
+        <repo_url>https://github.com/saschawildgrube/servicenow-codesanity.git</repo_url>
+        <sys_class_name>x_snc_devtools_dependency</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-22 16:16:31</sys_created_on>
+        <sys_id>ddb067771b04b950cd6153d16b4bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CodeSanity</sys_name>
+        <sys_package display_value="CodeSanityAI WORK IN PROGRESS" source="x_snc_codesanityai">311aa2371b40b950cd6153d16b4bcb56</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CodeSanityAI WORK IN PROGRESS">311aa2371b40b950cd6153d16b4bcb56</sys_scope>
+        <sys_update_name>x_snc_devtools_dependency_ddb067771b04b950cd6153d16b4bcb6e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-22 16:16:31</sys_updated_on>
+        <versions>2.9.0</versions>
+    </x_snc_devtools_dependency>
+</record_update>
