@@ -13,14 +13,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-23 11:38:56</sys_created_on>
         <sys_id>fefaa7c01bd0f950cd6153d16b4bcb56</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Run Server Side Script</sys_name>
         <sys_package display_value="CodeSanityAI WORK IN PROGRESS" source="x_snc_codesanityai">311aa2371b40b950cd6153d16b4bcb56</sys_package>
         <sys_policy/>
         <sys_scope display_value="CodeSanityAI WORK IN PROGRESS">311aa2371b40b950cd6153d16b4bcb56</sys_scope>
         <sys_update_name>sys_atf_step_fefaa7c01bd0f950cd6153d16b4bcb56</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-23 11:40:39</sys_updated_on>
+        <sys_updated_on>2023-07-23 12:34:07</sys_updated_on>
         <table/>
         <test display_value="CodeSanityAI - Sys IDs in scripts">22daef801bd0f950cd6153d16b4bcb6f</test>
         <timeout/>
@@ -49,9 +49,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-23 11:38:56</sys_created_on>
         <sys_id>fbfa67c01bd0f950cd6153d16b4bcb39</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-23 11:40:39</sys_updated_on>
+        <sys_updated_on>2023-07-23 12:34:07</sys_updated_on>
         <value>(function(outputs, steps, stepResult, assertEqual)&#13;
 {&#13;
 	var test = new x_snc_devtools.TestAPI(outputs, steps, stepResult, assertEqual);&#13;
@@ -103,8 +103,8 @@
 &#13;
 	var strRecordSysId = testdata.CreateScriptInclude(&#13;
 		'global',&#13;
-		'Test12',&#13;
-		'function _ATF_CODESANITY_Test12()\n'&#13;
+		'Test13',&#13;
+		'function _ATF_CODESANITY_Test13()\n'&#13;
 		+'{ var strtest = \'1234567890123456\'   +  \'7890123456789012\'; }');&#13;
 	test.TestCase_InstanceScanCheck(strCheck,'sys_script_include',strRecordSysId,true);		&#13;
 	&#13;

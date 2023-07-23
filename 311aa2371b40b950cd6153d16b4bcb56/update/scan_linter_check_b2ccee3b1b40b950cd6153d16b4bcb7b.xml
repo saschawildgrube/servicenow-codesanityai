@@ -17,10 +17,8 @@ Alternatives are to store Sys Ids in system properties or identify records dynam
 
 	if (x_snc_codesanity.IsCheckApplicableToRecord())
 	{
-		if (LinterCheck_IsCodeCompliant(current,engine) == false)
-		{
-			engine.finding.increment();
-		}
+		LinterCheck_IsCodeCompliant(engine,
+			'Code should not contain Sys IDs in string literals. Sys IDs in comments should be ignored. Two or more string literals that are concatenated should be considered.');
 	}
 
 })(engine);]]></script>
@@ -29,13 +27,13 @@ Alternatives are to store Sys Ids in system properties or identify records dynam
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-22 12:31:26</sys_created_on>
         <sys_id>b2ccee3b1b40b950cd6153d16b4bcb7b</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>CodeSanityAI - Sys IDs in scripts</sys_name>
         <sys_package display_value="CodeSanityAI WORK IN PROGRESS" source="x_snc_codesanityai">311aa2371b40b950cd6153d16b4bcb56</sys_package>
         <sys_policy/>
         <sys_scope display_value="CodeSanityAI WORK IN PROGRESS">311aa2371b40b950cd6153d16b4bcb56</sys_scope>
         <sys_update_name>scan_linter_check_b2ccee3b1b40b950cd6153d16b4bcb7b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-23 11:48:12</sys_updated_on>
+        <sys_updated_on>2023-07-23 15:12:20</sys_updated_on>
     </scan_linter_check>
 </record_update>
