@@ -2,12 +2,12 @@
     <scan_linter_check action="INSERT_OR_UPDATE">
         <active>true</active>
         <category>code_sanity</category>
-        <description>Source code should not directly contain ServiceNow Sys Ids in string literals.</description>
+        <description>Code should not contain Sys IDs in string literals.</description>
         <documentation_url/>
         <finding_type>scan_finding</finding_type>
-        <name>CodeSanityAI - Sys IDs</name>
+        <name>CodeSanityAI - Sys IDs in scripts</name>
         <priority>1</priority>
-        <resolution_details>Refactor the code not to use Sys Ids directly.&#13;
+        <resolution_details>Refactor the code not to use Sys IDs directly.&#13;
 Alternatives are to store Sys Ids in system properties or identify records dynamically.</resolution_details>
         <run_condition/>
         <score_max>100</score_max>
@@ -29,13 +29,13 @@ Alternatives are to store Sys Ids in system properties or identify records dynam
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-22 12:31:26</sys_created_on>
         <sys_id>b2ccee3b1b40b950cd6153d16b4bcb7b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>CodeSanityAI - Sys IDs</sys_name>
-        <sys_package display_value="CodeSanityAI" source="x_snc_codesanityai">311aa2371b40b950cd6153d16b4bcb56</sys_package>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>CodeSanityAI - Sys IDs in scripts</sys_name>
+        <sys_package display_value="CodeSanityAI WORK IN PROGRESS" source="x_snc_codesanityai">311aa2371b40b950cd6153d16b4bcb56</sys_package>
         <sys_policy/>
-        <sys_scope display_value="CodeSanityAI">311aa2371b40b950cd6153d16b4bcb56</sys_scope>
+        <sys_scope display_value="CodeSanityAI WORK IN PROGRESS">311aa2371b40b950cd6153d16b4bcb56</sys_scope>
         <sys_update_name>scan_linter_check_b2ccee3b1b40b950cd6153d16b4bcb7b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-22 14:55:45</sys_updated_on>
+        <sys_updated_on>2023-07-23 11:48:12</sys_updated_on>
     </scan_linter_check>
 </record_update>

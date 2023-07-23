@@ -7,22 +7,33 @@
         <client_callable>false</client_callable>
         <description>Asks an AI whether the given code is compliant to the specified rule, returns false if not. If the result is ambiguous or the check cannot be performed, the function returns true (In dubio pro reo). </description>
         <name>IsCodeCompliant</name>
-        <script><![CDATA[function IsCodeCompliant(strRule,strCode)
+        <script><![CDATA[function IsCodeCompliant(strRule,strCode,strCodeType)
 {
+	var GetStringValue = x_snc_devtools.GetStringValue;
 	var StringFormat = x_snc_devtools.StringFormat;
 
+	strCodeType = GetStringValue(strCodeType);
+	if (strCodeType == '')
+	{
+		strCodeType = 'JavaScript running on a ServiceNow Server';
+	}
+	
 	var strPrompt = StringFormat(
 		'Consider the following rule to analyse the following code.\n'
 		+'If the code cannot be checked, answer with "YES".\n'
 		+'If the code cannot be understood, answer with "YES".\n'
 		+'If the rule is unclear, answer with "YES".\n'
 		+'If the result of the analysis is ambiguous, answer with "YES".\n'
+		//+'If you are not sure, answer with "YES".\n'
 		+'If the code does NOT comply with the rule, answer with "NO".\n'
+		+'A Sys ID consists of 32 characters ranging from 0 to 9 and A to F.\n'		
+		+'The code should be interpreted as {2}.\n'
 		+'\n\n'
 		+'Here is the rule:\n{0}\n\n\n'
 		+'Here is the code:\n{1}\n',
 		strRule,
-		strCode);
+		strCode,
+		strCodeType);
 	
 	var strAnswer = x_snc_chat_gpt.Prompt(strPrompt);
 	if (strAnswer.toLowerCase() == 'no')
@@ -35,13 +46,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-22 14:14:47</sys_created_on>
         <sys_id>34e3c7bb1b80b950cd6153d16b4bcb26</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>IsCodeCompliant</sys_name>
-        <sys_package display_value="CodeSanityAI" source="x_snc_codesanityai">311aa2371b40b950cd6153d16b4bcb56</sys_package>
+        <sys_package display_value="CodeSanityAI WORK IN PROGRESS" source="x_snc_codesanityai">311aa2371b40b950cd6153d16b4bcb56</sys_package>
         <sys_policy>read</sys_policy>
-        <sys_scope display_value="CodeSanityAI">311aa2371b40b950cd6153d16b4bcb56</sys_scope>
+        <sys_scope display_value="CodeSanityAI WORK IN PROGRESS">311aa2371b40b950cd6153d16b4bcb56</sys_scope>
         <sys_update_name>sys_script_include_34e3c7bb1b80b950cd6153d16b4bcb26</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-22 14:28:50</sys_updated_on>
+        <sys_updated_on>2023-07-23 11:57:15</sys_updated_on>
     </sys_script_include>
 </record_update>

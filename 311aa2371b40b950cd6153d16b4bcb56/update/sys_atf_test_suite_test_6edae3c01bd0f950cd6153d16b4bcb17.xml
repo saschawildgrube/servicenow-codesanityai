@@ -4,17 +4,17 @@
         <order>100</order>
         <sys_class_name>sys_atf_test_suite_test</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-22 14:52:38</sys_created_on>
-        <sys_id>13bd0fb31bc0b950cd6153d16b4bcb44</sys_id>
+        <sys_created_on>2023-07-23 11:38:19</sys_created_on>
+        <sys_id>6edae3c01bd0f950cd6153d16b4bcb17</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>dbbd0fb31bc0b950cd6153d16b4bcb40</sys_name>
+        <sys_name>22daef801bd0f950cd6153d16b4bcb6f</sys_name>
         <sys_package display_value="CodeSanityAI WORK IN PROGRESS" source="x_snc_codesanityai">311aa2371b40b950cd6153d16b4bcb56</sys_package>
         <sys_policy/>
         <sys_scope display_value="CodeSanityAI WORK IN PROGRESS">311aa2371b40b950cd6153d16b4bcb56</sys_scope>
-        <sys_update_name>sys_atf_test_suite_test_13bd0fb31bc0b950cd6153d16b4bcb44</sys_update_name>
+        <sys_update_name>sys_atf_test_suite_test_6edae3c01bd0f950cd6153d16b4bcb17</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-23 11:52:24</sys_updated_on>
-        <test display_value="CodeSanityAI - Exception Handling">dbbd0fb31bc0b950cd6153d16b4bcb40</test>
+        <sys_updated_on>2023-07-23 11:50:13</sys_updated_on>
+        <test display_value="CodeSanityAI - Sys IDs in scripts">22daef801bd0f950cd6153d16b4bcb6f</test>
         <test_suite display_value="CodeSanityAI">ac8a2e371b40b950cd6153d16b4bcb77</test_suite>
     </sys_atf_test_suite_test>
 </record_update>

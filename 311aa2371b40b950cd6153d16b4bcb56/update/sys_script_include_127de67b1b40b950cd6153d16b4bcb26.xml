@@ -26,19 +26,19 @@ If for whatever reason the check cannot be performed, the result is true (In dub
 	var strRule = GetStringValue(grCheckRecord.getValue('description'));
 	var strCode = GetStringValue(engine.rootNode.toSource());
 	
-	return IsCodeCompliant(strRule,strCode);
+	return IsCodeCompliant(strRule,strCode,'JavaScript running on ServiceNow Server');
 }]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-22 12:37:24</sys_created_on>
         <sys_id>127de67b1b40b950cd6153d16b4bcb26</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>LinterCheck_IsCodeCompliant</sys_name>
-        <sys_package display_value="CodeSanityAI" source="x_snc_codesanityai">311aa2371b40b950cd6153d16b4bcb56</sys_package>
+        <sys_package display_value="CodeSanityAI WORK IN PROGRESS" source="x_snc_codesanityai">311aa2371b40b950cd6153d16b4bcb56</sys_package>
         <sys_policy>read</sys_policy>
-        <sys_scope display_value="CodeSanityAI">311aa2371b40b950cd6153d16b4bcb56</sys_scope>
+        <sys_scope display_value="CodeSanityAI WORK IN PROGRESS">311aa2371b40b950cd6153d16b4bcb56</sys_scope>
         <sys_update_name>sys_script_include_127de67b1b40b950cd6153d16b4bcb26</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-22 14:51:36</sys_updated_on>
+        <sys_updated_on>2023-07-23 12:01:51</sys_updated_on>
     </sys_script_include>
 </record_update>
