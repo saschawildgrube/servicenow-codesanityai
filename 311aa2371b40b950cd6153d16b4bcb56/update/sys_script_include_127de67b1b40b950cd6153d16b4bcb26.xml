@@ -7,7 +7,9 @@
         <client_callable>false</client_callable>
         <description>Asks an LLM based AI to check if the given code  is compliant to the description in the check.&#13;
 If for whatever reason the check cannot be performed, the result is true (In dubio pro reo).</description>
+        <mobile_callable>false</mobile_callable>
         <name>LinterCheck_IsCodeCompliant</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function LinterCheck_IsCodeCompliant(engine,strRule)
 {
 	if (IsActive() == false)
@@ -70,5 +72,6 @@ If for whatever reason the check cannot be performed, the result is true (In dub
         <sys_update_name>sys_script_include_127de67b1b40b950cd6153d16b4bcb26</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-07-23 15:15:19</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

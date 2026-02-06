@@ -36,4 +36,5 @@ Alternatives are to store Sys Ids in system properties or identify records dynam
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-07-23 15:12:20</sys_updated_on>
     </scan_linter_check>
+    <sys_translated_text action="delete_multiple" query="documentkey=b2ccee3b1b40b950cd6153d16b4bcb7b"/>
 </record_update>

@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Asks an AI whether the given code is compliant to the specified rule, returns false if not. If the result is ambiguous or the check cannot be performed, the function returns true (In dubio pro reo). </description>
+        <mobile_callable>false</mobile_callable>
         <name>IsCodeCompliant</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function IsCodeCompliant(strRule,strCode,strCodeType)
 {
 	var GetStringValue = x_snc_devtools.GetStringValue;
@@ -54,5 +56,6 @@
         <sys_update_name>sys_script_include_34e3c7bb1b80b950cd6153d16b4bcb26</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-07-25 06:39:21</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

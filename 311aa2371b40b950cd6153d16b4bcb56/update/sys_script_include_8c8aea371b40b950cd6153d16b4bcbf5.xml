@@ -6,7 +6,9 @@
         <caller_access>1</caller_access>
         <client_callable>false</client_callable>
         <description>Retrieves information about the app's dependencies to other apps and required versions.</description>
+        <mobile_callable>false</mobile_callable>
         <name>AppGetDependencies</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function AppGetDependencies()
 {
 	return x_snc_devtools.GetValue(
@@ -20,11 +22,12 @@
         <sys_id>8c8aea371b40b950cd6153d16b4bcbf5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>AppGetDependencies</sys_name>
-        <sys_package display_value="CodeSanityAI" source="x_snc_codesanityai">311aa2371b40b950cd6153d16b4bcb56</sys_package>
+        <sys_package display_value="CodeSanityAI WORK IN PROGRESS" source="x_snc_codesanityai">311aa2371b40b950cd6153d16b4bcb56</sys_package>
         <sys_policy/>
-        <sys_scope display_value="CodeSanityAI">311aa2371b40b950cd6153d16b4bcb56</sys_scope>
+        <sys_scope display_value="CodeSanityAI WORK IN PROGRESS">311aa2371b40b950cd6153d16b4bcb56</sys_scope>
         <sys_update_name>sys_script_include_8c8aea371b40b950cd6153d16b4bcbf5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-07-22 12:18:40</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>
