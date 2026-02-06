@@ -15,19 +15,33 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-22 12:23:07</sys_created_on>
         <sys_id>988ba6b71b40b950cd6153d16b4bcbd3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>DevTools - Check app dependencies</sys_name>
         <sys_package display_value="CodeSanityAI WORK IN PROGRESS" source="x_snc_codesanityai">311aa2371b40b950cd6153d16b4bcb56</sys_package>
         <sys_policy/>
         <sys_scope display_value="CodeSanityAI WORK IN PROGRESS">311aa2371b40b950cd6153d16b4bcb56</sys_scope>
         <sys_update_name>sys_atf_step_988ba6b71b40b950cd6153d16b4bcbd3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-22 12:23:07</sys_updated_on>
+        <sys_updated_on>2026-02-06 10:00:09</sys_updated_on>
         <table/>
         <test display_value="CodeSanityAI - Installation">b48a2e371b40b950cd6153d16b4bcb7b</test>
         <timeout/>
         <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=988ba6b71b40b950cd6153d16b4bcbd3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>988ba6b71b40b950cd6153d16b4bcbd3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-06 10:00:09</sys_created_on>
+        <sys_id>ee51a3c33bb6725062bf612c95e45a16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-06 10:00:09</sys_updated_on>
+        <value>311aa2371b40b950cd6153d16b4bcb56</value>
+        <variable display_value="Application">abfabdb693e1aa50959b7fda2bba10e4</variable>
+    </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_e4b8e71e1bbb5d105b76777d8b4bcb35^id=988ba6b71b40b950cd6153d16b4bcbd3"/>
 </record_update>
