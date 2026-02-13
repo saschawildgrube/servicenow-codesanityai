@@ -16,12 +16,17 @@
 	
 	<p>Welcome to CodeSanityAI - created and maintained by&#160;<a href="mailto:sascha.wildgrube@servicenow.com">Sascha Wildgrube</a>.</p>
 
+
+
 	<h2>Overview</h2> 
 	<g2:no_escape>$[
 		docapi.RenderDescription();
 	]</g2:no_escape>
 	
 	<p>The contained checks can be added to Scan Suites or be used selectively. Keep in mind that every execution of a Scan Check will trigger inference with the configured LLM - which may lead to significant consumption when many Application Files are scanned against a growing number of Checks.</p>
+
+	<h2>Table of Contents</h2>
+	<g2:no_escape>$[x_snc_devtools.HtmlRenderTableOfContents()]</g2:no_escape>	
 
 	<h2>Disclaimer</h2>
 	<g2:no_escape>$[docapi.RenderDisclaimer()]</g2:no_escape>	
@@ -47,13 +52,6 @@
 		]</g2:no_escape>
 		<g2:no_escape>$[
 			docapi.RenderInstallationInstructionsImportFromSourceControl(
-				'ChatGPT',
-				'https://github.com/saschawildgrube/servicenow-chatgpt',
-				true,
-				'https://www.wildgrube.com/servicenow-chatgpt/');
-		]</g2:no_escape>
-		<g2:no_escape>$[
-			docapi.RenderInstallationInstructionsImportFromSourceControl(
 				'CodeSanity',
 				'https://github.com/saschawildgrube/servicenow-codesanity',
 				true,
@@ -69,7 +67,7 @@
 		]</g2:no_escape>		
 	</ol>
 	
-	<h2>Instance Scan checks contained in the CodeSanityAI app</h2>
+	<h2>Instance Scan Checks contained in the CodeSanityAI app</h2>
 	<g2:no_escape>$[docapi.RenderInstanceScanChecks()]</g2:no_escape>		
 	
 	<h2>Reference</h2>
@@ -84,7 +82,7 @@
 	<g2:no_escape>$[docapi.RenderCopyright(2026,'Sascha Wildgrube')]</g2:no_escape>
 	<g2:no_escape>$[docapi.RenderLicense()]</g2:no_escape>
 	
-	<h2>Release Notes</h2>
+	<h2 toc-ignore-children="true">Release Notes</h2>
 
 	<h3>1.0.0 - 2026-TODO</h3>
 	<p>First baselined version</p>
@@ -98,13 +96,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-22 12:18:43</sys_created_on>
         <sys_id>ec8a2e371b40b950cd6153d16b4bcb73</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>manual</sys_name>
         <sys_package display_value="CodeSanityAI WORK IN PROGRESS" source="x_snc_codesanityai">311aa2371b40b950cd6153d16b4bcb56</sys_package>
         <sys_policy/>
         <sys_scope display_value="CodeSanityAI WORK IN PROGRESS">311aa2371b40b950cd6153d16b4bcb56</sys_scope>
         <sys_update_name>sys_ui_page_ec8a2e371b40b950cd6153d16b4bcb73</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-10 12:35:49</sys_updated_on>
+        <sys_updated_on>2026-02-13 12:11:47</sys_updated_on>
     </sys_ui_page>
 </record_update>
